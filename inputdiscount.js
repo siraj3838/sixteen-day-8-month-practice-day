@@ -15,5 +15,6 @@ document.getElementById('discount-btn').addEventListener('click', function () {
         document.getElementById('discount-price').textContent = 'Your Code is wrong and you can pay Regular Price';
         document.getElementById('Final-regular').textContent = `Regular Price:$1000`;
         document.getElementById('now-pay').textContent = regular;
+        
     }
 })

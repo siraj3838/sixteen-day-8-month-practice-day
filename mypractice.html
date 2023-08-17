@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gias Sir class Practice</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+      </script>
+</head>
+
+<body>
+
+    <section class="max-w-7xl mx-auto mt-8 grid grid-cols-2 gap-32">
+        <div class="grid w-fit grid-cols-3 gap-4">
+    
+              <div class="card w-52 bg-base-100 shadow-xl">
+                <figure class="px-10 pt-10">
+                  <img src="images/pngwing 7.png" alt="Shoes" class="rounded-xl" />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title">Snow white</h2>
+                  <p>If a dog chews shoes whose shoes does he choose?</p>
+                  <h3>price: 100 $</h3>
+                  <div class="card-actions">
+                    <button onclick="toHit(this)" class="btn btn-primary">Buy Now</button>
+                  </div>
+                </div>
+              </div>
+    
+              <div class="card w-52 bg-base-100 shadow-xl">
+                <figure class="px-10 pt-10">
+                  <img src="images/pngwing 8.png" alt="Shoes" class="rounded-xl" />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title">black white</h2>
+                  <p>If a dog chews shoes whose shoes does he choose?</p>
+                  <h3>price: 80 $</h3>
+                  <div class="card-actions">
+                    <button onclick="toHit(this)" class="btn btn-primary">Buy Now</button>
+                  </div>
+                </div>
+              </div>
+    
+              <div class="card w-52 bg-base-100 shadow-xl">
+                <figure class="px-10 pt-10">
+                  <img src="images/pngwing 10.png" alt="Shoes" class="rounded-xl" />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title">blue rose</h2>
+                  <p>If a dog chews shoes whose shoes does he choose?</p>
+                  <h3>price: 50 $</h3>
+                  <div class="card-actions">
+                    <button onclick="toHit(this)" class="btn btn-primary">Buy Now</button>
+                  </div>
+                </div>
+              </div>
+    
+    
+        </div>
+
+
+        <div id="child-collect" class="right-side-container col-4 text-center mt-6 border-2 pt-8 bg-red-200">
+            <h4 class="text-3xl">Code: Hero</h4>
+
+            <div class="bg-slate-600 text-slate-100 list-none w-36 mx-auto mt-2 space-y-2" id="send-item"></div>
+            <div class="selected-items" id="selected-items"></div>
+            <div class="cart-box">
+              <h6>total: <span id="total">00</span></h6>
+              <h6>discount 30%:<span id="discount">00</span></h6>
+              <hr />
+              <h5>grand Total: <span id="grand-total">00</span></h5>
+            </div>
+  
+            <div class="coupon"></div>
+          </div>
+    </section>
+
+    <script src="mypactice.js"></script>
+</body>
+
+</html>
